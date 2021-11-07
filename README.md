@@ -14,11 +14,24 @@ Python의 gTTS lib를 활용하여 텍스트를 음성으로 변환하는 서비
 
 <br/>
 
+## 프로젝트 개발 요구 사항 정의
+---
+
+### 서버 구조
+- User API, Auth, TTS Server, MySQL, Prometeus + Grafana 는 같은 Host System에 Docker Container 형태로 배포되어야 한다. (Docker File, Compose 활용)
+- 배포 시에는 Docker File, Docker Compose를 활용하여야 한다.
+
+### 파일 관리
+- Text File Upload 혹은 사용자가 Text 작성하였을 때에는 내용의 무결성 검증을 진행하여야 한다.
+- Host File System을 활용하여 File에 대해 Persist, Download(Download Page 제공), Select, Delete(Scheduler) 기능을 작성해야 한다.
+- File Multiple download 시 확장자가 아니라 Zip에 압축하여 제공하여야 한다.
+
+<br/>
+
 ## 프로젝트 개발 시 준수 사항
 ---
 
 ### Convention
-
 - 명시적인 Naming Convention 준수
 - Encapsulation 을 지킬 수 있는 원칙들을 준수
 - 좋은 커밋 메시지를 위해 Git commit 규칙을 준수 https://blog.ull.im/engineering/2019/03/10/logs-on-git.html
@@ -34,9 +47,7 @@ Python의 gTTS lib를 활용하여 텍스트를 음성으로 변환하는 서비
 
 <br/>
 
-
 ### Tech Stack 
-
 + Spring Boot 2.5.6 + Kotlin
 + Spring Actuator + Admin + Security + Resource Server + Authorization Server
 + Python + Fast API + gTTS
