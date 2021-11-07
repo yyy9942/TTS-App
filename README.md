@@ -1,6 +1,8 @@
 # TTS-App
 Text to Speech Project for Spring Boot and Kotlin, Auth Server, Python with Fast API (gTTS)
 
+Python의 gTTS lib를 활용하여 텍스트를 음성으로 변환하는 서비스를 구현해봅니다.
+
 <br/>
 
 ## 프로젝트 구조
