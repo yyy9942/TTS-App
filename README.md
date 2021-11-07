@@ -40,6 +40,7 @@ Python의 gTTS lib를 활용하여 텍스트를 음성으로 변환하는 서비
 + Spring Boot 2.5.6 + Kotlin
 + Spring Actuator + Admin + Security + Resource Server + Authorization Server
 + Python + Fast API + gTTS
++ React + TypeScript + React-Router-Dom + Material-UI
 + Testcontainers (redis, mysql..) + MySQL + Data JPA, QueryDSL
 + Prometheus + Grafana
 + Docker Compose + Docker
