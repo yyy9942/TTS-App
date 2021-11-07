@@ -7,7 +7,7 @@ Text to Speech Project for Spring Boot and Kotlin, Auth Server, Python with Fast
 ---
 - 추가, 변경 가능
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/67903919/140633923-ee12dfac-2bb5-45c6-adc8-57206230cd9b.png" width="85%">
+  <img src="https://user-images.githubusercontent.com/67903919/140641098-2d97d191-654c-42d3-8c72-631f44d8c750.png" width="85%">
 </p>
 
 <br/>
