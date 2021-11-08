@@ -55,3 +55,6 @@ Python의 gTTS lib를 활용하여 텍스트를 음성으로 변환하는 서비
 + Testcontainers (redis, mysql..) + MySQL + Data JPA, QueryDSL
 + Prometheus + Grafana
 + Docker Compose + Docker
+
+
+### 당연한 결과입니다!
